@@ -22,7 +22,7 @@ export default function Player(props) {
     btnCaption = "Save";
   }
   return (
-    <li>
+    <li className={props.isActive ? "active" : undefined}>
       <span className="player">
         {editablePlayerName}
         <span className="player-symbol">{props.symbol}</span>
