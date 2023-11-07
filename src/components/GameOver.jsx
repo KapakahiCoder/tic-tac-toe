@@ -1,11 +1,11 @@
-export default function GameOver({ winner }) {
+export default function GameOver(props) {
   return (
     <div id="game-over">
       <h2>Game Over!</h2>
-      {winner && <p>{winner} won!</p>}
-      {!winner && <p>Its a draw!</p>}
+      {props.winner && <p>{props.winner} won!</p>}
+      {!props.winner && <p>Its a draw!</p>}
       <p>
-        <button>Rematch!</button>
+        <button onClick={props.onRestart}>Rematch!</button>
       </p>
     </div>
   );

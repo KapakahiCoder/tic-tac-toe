@@ -6,6 +6,10 @@ export default function Player(props) {
 
   function editClickHandler() {
     setIsEditing((editing) => !editing);
+
+    if (isEditing) {
+      props.onChangeName(props.symbol, playerName);
+    }
   }
 
   function changeHandler(event) {
