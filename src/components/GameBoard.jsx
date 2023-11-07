@@ -12,7 +12,6 @@ export default function GameBoard(props) {
     const { row, col } = square;
 
     gameBoard[row][col] = player;
-    console.log(gameBoard);
   }
 
   return (
