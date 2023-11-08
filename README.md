@@ -3,7 +3,7 @@
 Simple Tic-Tac-Toe game to play with your friends and family.
 
 Play Tic-Tac-Toe here:
-[Let's Play](https://)
+[Let's Play](https://tic-tac-toe-react-game.web.app/)
 
 ### Here's a picture of the game play:
 
