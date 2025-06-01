@@ -23,6 +23,10 @@ npm run dev
 
 - [React](https://https://react.dev/)
 
+## Deployed Using
+
+- [Google Firebase](https://firebase.google.com/)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
